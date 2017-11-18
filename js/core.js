@@ -727,6 +727,18 @@ aoLib.copyToClipboard = function(elem) {
     return succeed;
 };
 
+aoLib.shuffle = function(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+  while (0 !== currentIndex) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
+}
+
 // window.fd.logging = false;
 jQuery(function() {    
     jQuery(document).on('click', '.dropdown-menu', function (e) {
@@ -737,7 +749,7 @@ jQuery(function() {
         var wrapper = $('#sponsorslider');
         aoLib.sliderImages = {
             container: $(wrapper),
-            sliderImageItems: sliderImageItems,
+            sliderImageItems: aoLib.shuffle(sliderImageItems),
             amount: parseInt($(wrapper).data('images')),
             pos: 0
         };
@@ -754,14 +766,15 @@ jQuery(function() {
         }
         
         window.setInterval(function() {
-            var posArr = ['top', 'right', 'bottom', 'left'];
+            var posArr = aoLib.shuffle(['top', 'right', 'bottom', 'left']);
+            var posArrPos = aoLib.sliderImages.pos % posArr.length;
             var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
             var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
             var wrapper = $('.sponsorsliderlogo:nth-child(' + (elemPos + 1) + ') .sponsorsliderlogowrapper', aoLib.sliderImages.container);
             var tmpElem = $('.sponsorsliderlogoinnerwrapper', wrapper);
             var newElem = $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
                 $('<img/>', {src: aoLib.sliderImages.sliderImageItems[imagePos]})
-            ).css({opacity: 0}).css(posArr[Math.floor(Math.random()*posArr.length)], '100%');            
+            ).css({opacity: 0}).css(posArr[posArrPos], '100%');            
             $(wrapper).append(newElem);
             $(newElem).animate({opacity: 1, left: '0%', top: '0%', bottom: '0%', right: '0%'}, 500, function() {
                 $(tmpElem).remove();
