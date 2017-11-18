@@ -12,7 +12,7 @@ header{min-height:70px;}
 .navbar-toggle{margin-top:18px;}
 
 .btn-custom-default{color:#f1f1f1;background:#3a3a3a;border:1px solid #1a2644;border-radius:0px;}
-.btn-custom-default:hover, .btn-custom-default:focus{color:#f1f1f1;background:#3a3a3a;border:1px solid #1a2644;}
+.btn-custom-default:hover, .btn-custom-default:focus{color:#000000;background:#f9cd00;}
 
 #page{min-height:600px;}
 .page-section{padding-top:20px;}
