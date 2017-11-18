@@ -756,7 +756,7 @@ jQuery(function() {
         window.setInterval(function() {
             var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
             var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
-            var wrapper = $('.sponsorsliderlogo:nth-child(' + elemPos + ') .sponsorsliderlogowrapper', aoLib.sliderImages.container);
+            var wrapper = $('.sponsorsliderlogo:nth-child(' + (elemPos + 1) + ') .sponsorsliderlogowrapper', aoLib.sliderImages.container);
             var tmpElem = $('.sponsorsliderlogoinnerwrapper', wrapper);
             var newElem = $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
                 $('<img/>', {src: aoLib.sliderImages.sliderImageItems[imagePos]})
