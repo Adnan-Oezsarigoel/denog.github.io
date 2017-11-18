@@ -763,10 +763,10 @@ jQuery(function() {
                 $('<img/>', {src: aoLib.sliderImages.sliderImageItems[imagePos]})
             ).css({opacity: 0}).css(posArr[Math.floor(Math.random()*posArr.length)], '100%');            
             $(wrapper).append(newElem);
-            $(newElem).animate({opacity: 1, left: '0%', top: '0%', bottom: '0%', right: '0%'}, 750, function() {
+            $(newElem).animate({opacity: 1, left: '0%', top: '0%', bottom: '0%', right: '0%'}, 500, function() {
                 $(tmpElem).remove();
             });
             aoLib.sliderImages.pos++;
-        }, 2250);
+        }, 1750);
     }
 });
