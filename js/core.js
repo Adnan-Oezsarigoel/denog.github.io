@@ -756,11 +756,13 @@ jQuery(function() {
         window.setInterval(function() {
             var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
             var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
-            var elem = $('.sponsorsliderlogo:nth-child(' + elemPos + ')', aoLib.sliderImages.container);
-            var tmpElem = $('.sponsorsliderlogoinnerwrapper', elem);
+            var wrapper = $('.sponsorsliderlogo:nth-child(' + elemPos + ') .sponsorsliderlogowrapper', aoLib.sliderImages.container);
+            var tmpElem = $('.sponsorsliderlogoinnerwrapper', wrapper);
             var newElem = $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
                 $('<img/>', {src: aoLib.sliderImages.sliderImageItems[imagePos]})
-            ).css({opacity: 0, left: '100%'}).animate({opacity: 1, left: '0%'}, 350, function() {
+            ).css({opacity: 0, left: '100%'});
+            $(wrapper).append(newElem);
+            $(newElem).animate({opacity: 1, left: '0%'}, 350, function() {
                 $(tmpElem).remove();
             });
             aoLib.sliderImages.pos++;
