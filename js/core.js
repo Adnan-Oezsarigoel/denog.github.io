@@ -757,9 +757,12 @@ jQuery(function() {
             var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
             var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
             var elem = $('.sponsorsliderlogo:nth-child(' + elemPos + ')', aoLib.sliderImages.container);
-            $('.sponsorsliderlogoinnerwrapper', elem).empty().append(
+            var tmpElem = $('.sponsorsliderlogoinnerwrapper', elem);
+            var newElem = $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
                 $('<img/>', {src: aoLib.sliderImages.sliderImageItems[imagePos]})
-            );
+            ).css({opacity: 0, left: '100%'}).animate({opacity: 1, left: '0%'}, 350, function() {
+                $(tmpElem).remove();
+            });
             aoLib.sliderImages.pos++;
         }, 1500);
     }
