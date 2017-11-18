@@ -754,9 +754,12 @@ jQuery(function() {
         }
         
         window.setInterval(function() {
-            var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
-            var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
-            console.log(imagePos + ' / ' + elemPos);
+            var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
+            var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
+            var elem = $('.sponsorsliderlogo:nth-child(' + elemPos + ')', aoLib.sliderImages.container);
+            $('.sponsorsliderlogoinnerwrapper', elem).empty().append(
+                $('<img/>', {src: aoLib.sliderImages.sliderImageItems[imagePos]})
+            );
             aoLib.sliderImages.pos++;
         }, 1500);
     }
