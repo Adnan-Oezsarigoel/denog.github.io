@@ -57,37 +57,15 @@ ref: index
         <hr class="verticaldivider" />
         <div class="mainpagepaddedbox">
             <h3>Sponsoren</h3>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="{{ site.url }}/images/megaportlounge.jpg" alt="Teaser" />
-                        <div class="caption">
-                            <small>DENOG9 Update I</small>
-                            <h3>Social Sponsor</h3>
-                            <p>Megaport ist unser Social Sponsor 2017 und wird auch wieder eine Lounge-Area im darmstatdium haben..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="{{ site.url }}/images/coffeebar.jpg" alt="Teaser" />
-                        <div class="caption">
-                            <small>DENOG9 Sponsoren II</small>
-                            <h3>Coffee Sponsor</h3>
-                            <p>Nach einem Jahr Pause wird 2017 syseleven wieder ausreichend Kaffee in den Pausen sorgen.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="{{ site.url }}/images/regdesk.jpg" alt="Teaser" />
-                        <div class="caption">
-                            <small>DENOG9 Registrierung</small>
-                            <h3>Early Bird</h3>
-                            <p>Der Early Bird Preis gilt noch bis Ende September. Vergesst nicht, Euch rechtzeitig <a href="http://www.denog.de/meetings/denog9/registration.php" traget="new">anzumelden</a>..</p>
-                        </div>
-                    </div>
-                </div>
+            <div id="sponsorslider">
+                <img src="{{ site.url }}/images/sponsoren2017/11xantaro.jpg" class="sponsorsliderlogo" />
+                <img src="{{ site.url }}/images/sponsoren2017/12juniper.jpg" class="sponsorsliderlogo" />
+                <img src="{{ site.url }}/images/sponsoren2017/21megaport.jpg" class="sponsorsliderlogo" />
+                <img src="{{ site.url }}/images/sponsoren2017/22ecix.jpg" class="sponsorsliderlogo" />
+                <img src="{{ site.url }}/images/sponsoren2017/anexia.jpg" class="sponsorsliderlogo" />
+                <img src="{{ site.url }}/images/sponsoren2017/nokia.jpg" class="sponsorsliderlogo" />
+                <img src="{{ site.url }}/images/sponsoren2017/syseleven.jpg" class="sponsorsliderlogo" />
+                <img src="{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg" class="sponsorsliderlogo" />
             </div>
         </div>
     </div>
