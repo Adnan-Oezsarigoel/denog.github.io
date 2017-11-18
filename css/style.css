@@ -46,7 +46,7 @@ footer{color:#949597;background#3a3a3a;border-top:1px solid #1a2644;}
 #mainpage .mainpagepaddedbox{padding:20px;text-align:justify;}
 
 #sponsorslider{}
-#sponsorslider .sponsorsliderlogo{width:33%;height:140px;background:#ffffff;display:flex;align-items:center;justify-content:space-around;float:left;}
+#sponsorslider .sponsorsliderlogo{width:33%;height:220px;padding:40px;background:#ffffff;display:flex;align-items:center;justify-content:space-around;float:left;}
 #sponsorslider .sponsorsliderlogo img{max-width:100%;max-height:140px;display:block;}
 
 @media (min-width: 992px) and (max-width: 1200px) {
