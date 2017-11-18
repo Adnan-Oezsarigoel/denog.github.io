@@ -54,10 +54,10 @@ ref: index
                 </div>
             </div>
         </div>
-        <h4>Sponsoren</h4>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="mainpagepaddedbox">
+        <div class="mainpagepaddedbox">
+            <h4>Sponsoren</h4>
+            <div class="row">
+                <div class="col-sm-4">
                     <div class="thumbnail">
                         <img src="{{ site.url }}/images/megaportlounge.jpg" alt="Teaser" />
                         <div class="caption">
@@ -67,9 +67,7 @@ ref: index
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="mainpagepaddedbox">
+                <div class="col-sm-4">
                     <div class="thumbnail">
                         <img src="{{ site.url }}/images/coffeebar.jpg" alt="Teaser" />
                         <div class="caption">
@@ -79,9 +77,7 @@ ref: index
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="mainpagepaddedbox">
+                <div class="col-sm-4">
                     <div class="thumbnail">
                         <img src="{{ site.url }}/images/regdesk.jpg" alt="Teaser" />
                         <div class="caption">
