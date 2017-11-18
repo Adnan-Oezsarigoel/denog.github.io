@@ -38,7 +38,7 @@ footer{color:#949597;background#3a3a3a;border-top:1px solid #1a2644;}
 #mainpage .mainpagebox > div{background:rgba(230,230,230,0.95);}
 #mainpage .mainpagebox #mainpagelogo{width:440px;margin:20px auto 20px auto;display:block;}
 #mainpage .mainpagebox .mainpageboxheadline{color:#3a393a;text-align:center;}
-#mainpage .mainpagebox .mainpageboxheadline + p{padding:20px 0px 60px 0px;text-align:center;}
+#mainpage .mainpagebox .mainpageboxheadline + p{padding:20px 0px 20px 0px;text-align:center;}
 #mainpage .mainpageboxlarge .mainpageboxheadline{margin:0px;padding:40px 0px 40px 0px;font-size:22px;}
 #mainpage .mainpageboxsmall .mainpageboxheadline{margin:0px;padding:80px 0px 80px 0px;font-size:16px;}
 
