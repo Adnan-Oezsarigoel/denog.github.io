@@ -750,7 +750,7 @@ jQuery(function() {
                     )
                 )
             );
-            aoLib.sliderImages.append(elem);
+            aoLib.sliderImages.container.append(elem);
         }
     }
 });
