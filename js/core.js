@@ -746,11 +746,18 @@ jQuery(function() {
             var elem = $('<div/>', {class: 'sponsorsliderlogo'}).append(
                 $('<div/>', {class: 'sponsorsliderlogowrapper'}).append(
                     $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
-                        $('<img/>', {src: aoLib.sliderImages.sliderImageItems[i]})
+                        $('<img/>', {src: aoLib.sliderImages.sliderImageItems[aoLib.sliderImages.pos++]})
                     )
                 )
             );
             aoLib.sliderImages.container.append(elem);
         }
+        
+        window.setInterval(function() {
+            var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
+            var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
+            console.log(imagePos + ' / ' + elemPos);
+            aoLib.sliderImages.pos++;
+        }, 1500);
     }
 });
