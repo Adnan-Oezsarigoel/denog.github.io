@@ -58,14 +58,30 @@ ref: index
         <div class="mainpagepaddedbox">
             <h3>Sponsoren</h3>
             <div id="sponsorslider">
-                <img src="{{ site.url }}/images/sponsoren2017/11xantaro.jpg" class="sponsorsliderlogo" />
-                <img src="{{ site.url }}/images/sponsoren2017/12juniper.jpg" class="sponsorsliderlogo" />
-                <img src="{{ site.url }}/images/sponsoren2017/21megaport.jpg" class="sponsorsliderlogo" />
-                <img src="{{ site.url }}/images/sponsoren2017/22ecix.jpg" class="sponsorsliderlogo" />
-                <img src="{{ site.url }}/images/sponsoren2017/anexia.jpg" class="sponsorsliderlogo" />
-                <img src="{{ site.url }}/images/sponsoren2017/nokia.jpg" class="sponsorsliderlogo" />
-                <img src="{{ site.url }}/images/sponsoren2017/syseleven.jpg" class="sponsorsliderlogo" />
-                <img src="{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg" class="sponsorsliderlogo" />
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/11xantaro.jpg" />
+                </div>
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/12juniper.jpg" />
+                </div>
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/21megaport.jpg" />
+                </div>
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/22ecix.jpg" />
+                </div>
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/anexia.jpg" />
+                </div>
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/nokia.jpg" />
+                </div>
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/syseleven.jpg" />
+                </div>
+                <div class="sponsorsliderlogo">
+                    <img src="{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg" />
+                </div>
             </div>
         </div>
     </div>
