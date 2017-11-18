@@ -54,6 +54,7 @@ ref: index
                 </div>
             </div>
         </div>
+        <div class="mainbgcolor"><br /></div>
     </div>
     <div class="pagecontentblock">
         <h4 class="bigheadliner">News</h4>
