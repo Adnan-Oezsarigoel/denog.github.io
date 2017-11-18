@@ -54,8 +54,9 @@ ref: index
                 </div>
             </div>
         </div>
+        <hr class="mainbgcolor" />
         <div class="mainpagepaddedbox">
-            <h4>Sponsoren</h4>
+            <h3>Sponsoren</h3>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="thumbnail">
