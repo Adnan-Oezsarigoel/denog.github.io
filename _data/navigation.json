@@ -1,5 +1,5 @@
 {
-	"de": {
+	// "de": {
 		"top": [
 			{"url": "index.html", "text": "Home"},
 			{"url": "#", "text": "Informationen", "childs": [
@@ -27,6 +27,7 @@
 			{"url": "kontakt.html", "text": "Kontakt"},
 			{"url": "impressum.html", "text": "Impressum"}
 		]
+    /*
 	},
 	"en": {
 		"top": [
@@ -57,4 +58,5 @@
 			{"url": "impressum.html", "text": "Imprint"}
 		]
 	}
+    */
 }
