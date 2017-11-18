@@ -73,13 +73,13 @@ ref: index
                 <div class="sponsorsliderlogo">
                     <img src="{{ site.url }}/images/sponsoren2017/anexia.jpg" />
                 </div>
-                <div class="sponsorsliderlogo">
+                <div class="sponsorsliderlogo" style="display:block;">
                     <img src="{{ site.url }}/images/sponsoren2017/nokia.jpg" />
                 </div>
-                <div class="sponsorsliderlogo">
+                <div class="sponsorsliderlogo" style="display:block;">
                     <img src="{{ site.url }}/images/sponsoren2017/syseleven.jpg" />
                 </div>
-                <div class="sponsorsliderlogo">
+                <div class="sponsorsliderlogo" style="display:block;">
                     <img src="{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg" />
                 </div>
             </div>

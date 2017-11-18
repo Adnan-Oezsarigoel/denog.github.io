@@ -46,7 +46,7 @@ footer{color:#949597;background#3a3a3a;border-top:1px solid #1a2644;}
 #mainpage .mainpagepaddedbox{padding:20px;text-align:justify;}
 
 #sponsorslider{}
-#sponsorslider .sponsorsliderlogo{width:33%;height:300px;display:none;}
+#sponsorslider .sponsorsliderlogo{width:33%;height:300px;padding:40px;float:left;display:none;}
 #sponsorslider .sponsorsliderlogo img{max-width:100%;margin:auto;vertical-align:center;display:block;}
 
 @media (min-width: 992px) and (max-width: 1200px) {
