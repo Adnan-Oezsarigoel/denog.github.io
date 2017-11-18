@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: denog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: ""
+url: "/denog.github.io"
 # Build settings
 markdown: kramdown
 
@@ -34,6 +34,6 @@ exclude: ['_theme', package.json, Gemfile, Gemfile.lock]
 defaults:
   -
     scope:
-      path: "denog.github.io"
+      path: ""
     values:
       layout: "page"
