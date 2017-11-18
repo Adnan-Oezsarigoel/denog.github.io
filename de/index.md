@@ -54,39 +54,41 @@ ref: index
                 </div>
             </div>
         </div>
-        <br /><br />
-        <div class="mainbgcolor"><br /></div>
-    </div>
-    <div class="pagecontentblock">
         <h4>Sponsoren</h4>
         <div class="row">
             <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="{{ site.url }}/images/megaportlounge.jpg" alt="Teaser" />
-                    <div class="caption">
-                        <small>DENOG9 Update I</small>
-                        <h3>Social Sponsor</h3>
-                        <p>Megaport ist unser Social Sponsor 2017 und wird auch wieder eine Lounge-Area im darmstatdium haben..</p>
+                <div class="mainpagepaddedbox">
+                    <div class="thumbnail">
+                        <img src="{{ site.url }}/images/megaportlounge.jpg" alt="Teaser" />
+                        <div class="caption">
+                            <small>DENOG9 Update I</small>
+                            <h3>Social Sponsor</h3>
+                            <p>Megaport ist unser Social Sponsor 2017 und wird auch wieder eine Lounge-Area im darmstatdium haben..</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="{{ site.url }}/images/coffeebar.jpg" alt="Teaser" />
-                    <div class="caption">
-                        <small>DENOG9 Sponsoren II</small>
-                        <h3>Coffee Sponsor</h3>
-                        <p>Nach einem Jahr Pause wird 2017 syseleven wieder ausreichend Kaffee in den Pausen sorgen.</p>
+                <div class="mainpagepaddedbox">
+                    <div class="thumbnail">
+                        <img src="{{ site.url }}/images/coffeebar.jpg" alt="Teaser" />
+                        <div class="caption">
+                            <small>DENOG9 Sponsoren II</small>
+                            <h3>Coffee Sponsor</h3>
+                            <p>Nach einem Jahr Pause wird 2017 syseleven wieder ausreichend Kaffee in den Pausen sorgen.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="{{ site.url }}/images/regdesk.jpg" alt="Teaser" />
-                    <div class="caption">
-                        <small>DENOG9 Registrierung</small>
-                        <h3>Early Bird</h3>
-                        <p>Der Early Bird Preis gilt noch bis Ende September. Vergesst nicht, Euch rechtzeitig <a href="http://www.denog.de/meetings/denog9/registration.php" traget="new">anzumelden</a>..</p>
+                <div class="mainpagepaddedbox">
+                    <div class="thumbnail">
+                        <img src="{{ site.url }}/images/regdesk.jpg" alt="Teaser" />
+                        <div class="caption">
+                            <small>DENOG9 Registrierung</small>
+                            <h3>Early Bird</h3>
+                            <p>Der Early Bird Preis gilt noch bis Ende September. Vergesst nicht, Euch rechtzeitig <a href="http://www.denog.de/meetings/denog9/registration.php" traget="new">anzumelden</a>..</p>
+                        </div>
                     </div>
                 </div>
             </div>
