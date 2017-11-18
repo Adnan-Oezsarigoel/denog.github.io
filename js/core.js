@@ -746,11 +746,10 @@ jQuery(function() {
     });
     
     if ($('#sponsorslider').length && typeof sliderImageItems !== 'undefined' && jQuery.isArray(sliderImageItems)) {
-        sliderImageItems = aoLib.shuffle(sliderImageItems);
         var wrapper = $('#sponsorslider');
         aoLib.sliderImages = {
             container: $(wrapper),
-            sliderImageItems: sliderImageItems,
+            sliderImageItems: aoLib.shuffle(sliderImageItems),
             amount: parseInt($(wrapper).data('images')),
             pos: 0,
             posArr: aoLib.shuffle(['top', 'right', 'bottom', 'left'])
