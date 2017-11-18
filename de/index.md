@@ -94,8 +94,3 @@ ref: index
         </div>
     </div>
 </div>
-<script type="text/javascript">
-    $(function() {
-        console.log( "ready!" );
-    });
-</script>
