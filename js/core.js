@@ -746,10 +746,11 @@ jQuery(function() {
     });
     
     if ($('#sponsorslider').length && typeof sliderImageItems !== 'undefined' && jQuery.isArray(sliderImageItems)) {
+        sliderImageItems = aoLib.shuffle(sliderImageItems);
         var wrapper = $('#sponsorslider');
         aoLib.sliderImages = {
             container: $(wrapper),
-            sliderImageItems: aoLib.shuffle(sliderImageItems),
+            sliderImageItems: sliderImageItems,
             amount: parseInt($(wrapper).data('images')),
             pos: 0
         };
