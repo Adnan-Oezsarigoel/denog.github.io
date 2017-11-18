@@ -733,5 +733,7 @@ jQuery(function() {
         e.stopPropagation();
     });
     
-    
+    if (typeof sliderImageItems !== 'undefined' && jQuery.isArray(sliderImageItems)) {
+        console.log("O");
+    }
 });

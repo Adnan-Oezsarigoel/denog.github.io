@@ -67,58 +67,42 @@ ref: index
                 <div id="sponsorslider">
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/11xantaro.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/12juniper.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/21megaport.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/22ecix.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/anexia.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/nokia.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/syseleven.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
                         <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper">
-                                <img src="{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg" />
-                            </div>
+                            <div class="sponsorsliderlogoinnerwrapper"></div>
                         </div>
                     </div>
                 </div>
@@ -126,3 +110,15 @@ ref: index
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    var sliderImageItems = [
+        '{{ site.url }}/images/sponsoren2017/11xantaro.jpg',
+        '{{ site.url }}/images/sponsoren2017/12juniper.jpg',
+        '{{ site.url }}/images/sponsoren2017/21megaport.jpg',
+        '{{ site.url }}/images/sponsoren2017/22ecix.jpg',
+        '{{ site.url }}/images/sponsoren2017/anexia.jpg',
+        '{{ site.url }}/images/sponsoren2017/nokia.jpg',
+        '{{ site.url }}/images/sponsoren2017/syseleven.jpg',
+        '{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg',
+    ];
+</script>
