@@ -64,48 +64,7 @@ ref: index
         <div class="container">
             <div class="mainpagepaddedbox">
                 <h3>Sponsoren</h3>
-                <div id="sponsorslider">
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                    <div class="sponsorsliderlogo">
-                        <div class="sponsorsliderlogowrapper">
-                            <div class="sponsorsliderlogoinnerwrapper"></div>
-                        </div>
-                    </div>
-                </div>
+                <div id="sponsorslider"></div>
             </div>
         </div>
     </div>
