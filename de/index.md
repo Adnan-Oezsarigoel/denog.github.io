@@ -58,7 +58,7 @@ ref: index
         <div class="mainbgcolor"><br /></div>
     </div>
     <div class="pagecontentblock">
-        <h4 class="bigheadliner">News</h4>
+        <h4>Sponsoren</h4>
         <div class="row">
             <div class="col-sm-4">
                 <div class="thumbnail">
