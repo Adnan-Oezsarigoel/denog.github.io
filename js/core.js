@@ -754,15 +754,16 @@ jQuery(function() {
         }
         
         window.setInterval(function() {
+            var posArr = ['top', 'right', 'bottom', 'left'];
             var elemPos = aoLib.sliderImages.pos % aoLib.sliderImages.amount;
             var imagePos = aoLib.sliderImages.pos % aoLib.sliderImages.sliderImageItems.length;
             var wrapper = $('.sponsorsliderlogo:nth-child(' + (elemPos + 1) + ') .sponsorsliderlogowrapper', aoLib.sliderImages.container);
             var tmpElem = $('.sponsorsliderlogoinnerwrapper', wrapper);
             var newElem = $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
                 $('<img/>', {src: aoLib.sliderImages.sliderImageItems[imagePos]})
-            ).css({opacity: 0, left: '100%'});
+            ).css({opacity: 0}).css(posArr[Math.floor(Math.random()*posArr.length)], '100%');            
             $(wrapper).append(newElem);
-            $(newElem).animate({opacity: 1, left: '0%'}, 750, function() {
+            $(newElem).animate({opacity: 1, left: '0%', top: '0%', bottom: '0%', right: '0%'}, 750, function() {
                 $(tmpElem).remove();
             });
             aoLib.sliderImages.pos++;
