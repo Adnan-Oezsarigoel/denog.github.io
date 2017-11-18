@@ -738,7 +738,7 @@ jQuery(function() {
         aoLib.sliderImages = {
             container: $(wrapper),
             sliderImageItems: sliderImageItems,
-            amount: $(wrapper).data('images')
+            amount: parseInt($(wrapper).data('images')),
             pos: 0
         };
         
