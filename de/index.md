@@ -76,6 +76,7 @@ ref: index
                         <div class="sponsorsliderlogowrapper">
                             <div class="sponsorsliderlogoinnerwrapper">
                                 <img src="{{ site.url }}/images/sponsoren2017/12juniper.jpg" />
+                            </div>
                         </div>
                     </div>
                     <div class="sponsorsliderlogo">
