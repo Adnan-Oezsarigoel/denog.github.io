@@ -733,5 +733,5 @@ jQuery(function() {
         e.stopPropagation();
     });
     
-    aoLib.alertBox();
+    
 });

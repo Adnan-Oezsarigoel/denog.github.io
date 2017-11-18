@@ -66,28 +66,59 @@ ref: index
                 <h3>Sponsoren</h3>
                 <div id="sponsorslider">
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/11xantaro.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/11xantaro.jpg" />
+                            </div>
+                        </div>
                     </div>
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/12juniper.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/12juniper.jpg" />
+                        </div>
                     </div>
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/21megaport.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/21megaport.jpg" />
+                            </div>
+                        </div>
                     </div>
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/22ecix.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/22ecix.jpg" />
+                            </div>
+                        </div>
                     </div>
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/anexia.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/anexia.jpg" />
+                            </div>
+                        </div>
                     </div>
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/nokia.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/nokia.jpg" />
+                            </div>
+                        </div>
                     </div>
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/syseleven.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/syseleven.jpg" />
+                            </div>
+                        </div>
                     </div>
                     <div class="sponsorsliderlogo">
-                        <img src="{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg" />
+                        <div class="sponsorsliderlogowrapper">
+                            <div class="sponsorsliderlogoinnerwrapper">
+                                <img src="{{ site.url }}/images/sponsoren2017/thomas-krenn.jpg" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
