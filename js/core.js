@@ -743,7 +743,7 @@ jQuery(function() {
         };
         
         for (var i = 0; i < aoLib.sliderImages.amount; i++) {
-            var elem = $('<div/>', {class: 'sponsorsliderlogo'}).append(
+            var elem = $('<div/>', {class: 'sponsorsliderlogo'}).css({width: Math.floor(100 / aoLib.sliderImages.amount)}).append(
                 $('<div/>', {class: 'sponsorsliderlogowrapper'}).append(
                     $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
                         $('<img/>', {src: aoLib.sliderImages.sliderImageItems[aoLib.sliderImages.pos++]})
