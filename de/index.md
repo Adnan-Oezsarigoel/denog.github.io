@@ -54,7 +54,7 @@ ref: index
                 </div>
             </div>
         </div>
-        <hr class="mainbgcolor" />
+        <hr class="verticaldivider" />
         <div class="mainpagepaddedbox">
             <h3>Sponsoren</h3>
             <div class="row">
