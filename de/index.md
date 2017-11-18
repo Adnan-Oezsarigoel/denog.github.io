@@ -96,6 +96,6 @@ ref: index
 </div>
 <script type="text/javascript">
     $(function() {
-        alert("OK");
+        console.log( "ready!" );
     });
 </script>
