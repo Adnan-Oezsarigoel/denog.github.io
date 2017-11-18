@@ -733,7 +733,24 @@ jQuery(function() {
         e.stopPropagation();
     });
     
-    if (typeof sliderImageItems !== 'undefined' && jQuery.isArray(sliderImageItems)) {
-        console.log("O");
+    if ($('#sponsorslider').length && typeof sliderImageItems !== 'undefined' && jQuery.isArray(sliderImageItems)) {
+        var wrapper = $('#sponsorslider');
+        aoLib.sliderImages = {
+            container: $(wrapper),
+            sliderImageItems: sliderImageItems,
+            amount: $(wrapper).data('images')
+            pos: 0
+        };
+        
+        for (var i = 0; i < aoLib.sliderImages.amount; i++) {
+            var elem = $('<div/>', {class: 'sponsorsliderlogo'}).append(
+                $('<div/>', {class: 'sponsorsliderlogowrapper'}).append(
+                    $('<div/>', {class: 'sponsorsliderlogoinnerwrapper'}).append(
+                        $('<img/>', {src: aoLib.sliderImages.sliderImageItems[i]})
+                    )
+                )
+            );
+            aoLib.sliderImages.append(elem);
+        }
     }
 });

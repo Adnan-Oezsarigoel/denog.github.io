@@ -64,7 +64,7 @@ ref: index
         <div class="container">
             <div class="mainpagepaddedbox">
                 <h3>Sponsoren</h3>
-                <div id="sponsorslider"></div>
+                <div id="sponsorslider" data-images="3"></div>
             </div>
         </div>
     </div>
