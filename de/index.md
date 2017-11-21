@@ -2,6 +2,7 @@
 lang: de
 ref: index
 ---
+</div></div> <!-- Closing open divs -->
 <div id="mainpage">
     <div class="pagecontentblock">
         <div class="row">
@@ -57,6 +58,7 @@ ref: index
         </div>
     </div>
 </div>
+<div><div> <!-- Open closed divs -->
 <script type="text/javascript">
     var sliderImageItems = [
         '{{ site.url }}/images/sponsoren2017/11xantaro.jpg',
