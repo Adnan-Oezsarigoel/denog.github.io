@@ -24,9 +24,8 @@
 </head>
 <body>
 {% include header.html %}
-	{{ page.url }}
-	{{ site.url }}
-  {% if page.url == 'index.html' %}
+
+  {% if page.url == '/de/' or page.url == '/' %}
     {{ content }}
   {% else %}    
     <div class="container">
