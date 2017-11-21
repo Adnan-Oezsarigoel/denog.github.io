@@ -3,6 +3,8 @@ lang: de
 ref: ortundhotels
 title: DENOG8 - VERANSTALTUNGSORT & HOTELS
 ---
+<div class="container">
+    <div class="mainpagepaddedbox">
 23.-24. November 2016 Darmstadt
 
 ## Ort
@@ -42,3 +44,5 @@ Die folgenden Hotels sind nicht allzu weit vom darmstadtium entfernt:
 - [Intercity Hotel](http://www.intercityhotel.com/de/Darmstadt){:target="_blank"} am Hauptbahnhof, ca. 30 Minuten zu Fuss oder 5 Minuten mit Bus/Straßenbahn
 
 Alternativen gibt es bei [hotels.com](http://hotels.com){:target="_blank"} , [booking.com](http://booking.com){:target="_blank"} oder [hrs.de](http://hrs.de){:target="_blank"}
+    </div>
+</div>
