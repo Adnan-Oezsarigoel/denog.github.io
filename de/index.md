@@ -4,7 +4,8 @@ ref: index
 ---
 <div id="mainpage">
     <div class="pagecontentblock">
-            <div class="mainpagebox mainpageboxlarge">
+        <div class="mainpagebox mainpageboxlarge">
+            <div>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
