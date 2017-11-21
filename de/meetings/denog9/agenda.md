@@ -22,7 +22,6 @@ title: DENOG8 - VORLÄUFIGE AGENDA
         <tr><td>1</td><td>19:00</td><td>Social Event @ Corroboree, Kasinostr. 4-6 (<a href="https://www.google.de/maps/dir/Darmstadtium+-+Wissenschafts-+und+Kongresszentrum,+Schloßgraben,+Darmstadt/Corroboree+-+Aussie+Bar+%26+Grill,+Kasinostraße+4-6,+64293+Darmstadt/@49.873812,8.6491802,16z/am=t/data=!4m14!4m13!1m5!1m1!1s0x47bd706435f6ea15:0xc2dd60af1412120a!2m2!1d8.657713!2d49.874321!1m5!1m1!1s0x47bd708858ccbb7f:0x8ad571c59f1d894c!2m2!1d8.6438668!2d49.8728832!3e2" target="_new">Fu&szlig;weg)</a></td><td></td></tr>
         </table>
 
-        <a name="middle">
         <h2>Tag 2 - 24.11.2017</h2>
         <table border="1" cellspacing="0" cellpadding="3" style="border-collapse: collapse; border: 1px solid;" width="100%">
         <tr><td>Tag</td><td>Zeit</td><td>24.11.</td><td>Sprecher</td></tr>
@@ -36,7 +35,6 @@ title: DENOG8 - VORLÄUFIGE AGENDA
         <tr><td>2</td><td>12:45-13:00</td><td>Abschluss</td><td>DENOG Orga</td></tr>
         <tr><td>2</td><td>13:00</td><td>Farewell Lunch</td><td></td></tr>
         </table>
-        <a name="end">
 
         <p>&nbsp;</p>
         <hr>
