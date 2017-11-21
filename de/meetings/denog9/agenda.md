@@ -1,7 +1,7 @@
 ---
 lang: de 
-ref: agenda8
-title: DENOG8 - VORLÄUFIGE AGENDA
+ref: agenda9
+title: DENOG9 - VORLÄUFIGE AGENDA
 ---
 <div class="container">
     <div class="mainpagepaddedbox">
