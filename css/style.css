@@ -45,8 +45,8 @@ footer{color:#949597;background#3a3a3a;border-top:1px solid #1a2644;}
 #mainpage .mainpageboxsmall .mainpageboxheadline{margin:0px;padding:80px 0px 80px 0px;font-size:16px;}
 #mainpage .mainpagepaddedbox{padding:20px;text-align:justify;}
 
-.newsblockwrapper{display:flex;justify-content:space-around;flex-wrap:wrap;}
-.newsblockwrapper .newsblock{width:30%;height:350px;margin:10px;padding:20px;position:relative;}
+.newsblockwrapper{display:flex;justify-content:space-between;flex-wrap:wrap;}
+.newsblockwrapper .newsblock{margin:10px;padding:20px;display:inline-block;position:relative;}
 .newsblockwrapper .newsblock .mainpageboxlink{bottom:0px;right:0px;position:absolute;}
 
 #sponsorslider{}
