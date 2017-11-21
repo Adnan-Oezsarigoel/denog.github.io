@@ -6,7 +6,7 @@ title: DENOG9 ATTENDEE LIST
 <div class="container">
     <div class="mainpagepaddedbox">
         <h1>Teilnehmer DENOG9</h1>
-        <table>
+        <table class="table table-hover table-striped">
             <tr><td>1&1 Internet SE # Roman Meyer</td></tr>
             <tr><td>1&1 Internet SE # Sascha Eberhardt</td></tr>
             <tr><td>AirITSystems GmbH # Timo Harder</td></tr>
