@@ -2,8 +2,8 @@
 lang: de
 ref: index
 ---
-
-</div><div id="mainpage">
+<span></span></div>
+<div id="mainpage">
     <div class="pagecontentblock">
         <div class="row">
             <div class="col-sm-12">
