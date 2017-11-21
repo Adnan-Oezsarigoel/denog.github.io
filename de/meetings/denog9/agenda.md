@@ -60,8 +60,8 @@ title: DENOG8 - VORLÄUFIGE AGENDA
 
         Two factors, however, have prompted security experts to devote themselves closer to these management chips:
         <ol>
-            <li> The firmware of an IPMI BMC is usually an embedded Linux, which must be regularly updated with security updates.
-            <li> The IPMI specification has some security design weaknesses.
+            <li> The firmware of an IPMI BMC is usually an embedded Linux, which must be regularly updated with security updates.</li>
+            <li> The IPMI specification has some security design weaknesses.</li>
         </ol>
 
         In the previous years, security analyzes published in this context revealed major flaws and the IPMI firmware images did not show a good testimony. For administrators reason enough, not to operate IPMI interfaces publicly on the Internet - so one should actually mean. Network scans carried out on a large scale showed that hundreds of thousands of servers can be accessed publicly via the Internet via IPMI.<br>
