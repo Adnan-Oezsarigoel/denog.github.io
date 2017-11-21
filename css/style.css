@@ -46,7 +46,7 @@ footer{color:#949597;background#3a3a3a;border-top:1px solid #1a2644;}
 #mainpage .mainpagepaddedbox{padding:20px;text-align:justify;}
 
 .newsblockwrapper{display:-webkit-flex;display:-ms-flex;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-content:space-around;}
-.newsblockwrapper .newsblock{margin:10px;padding:20px;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.newsblockwrapper .newsblock{width:30%;margin:10px;padding:20px;display:-webkit-flex;display:-ms-flexbox;display:flex;}
 
 #sponsorslider{}
 #sponsorslider .sponsorsliderlogo{width:10%;height:220px;padding:40px 4% 40px 4%;overflow:hidden;float:left;}
