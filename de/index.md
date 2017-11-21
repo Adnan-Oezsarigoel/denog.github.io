@@ -49,8 +49,10 @@ ref: index
             </div>
         </div>
         <div class="container">
+            <hr class="verticaldivider" />
+        </div>
+        <div class="container">
             <div class="mainpagepaddedbox">
-                <hr class="verticaldivider" />
                 <h3>Sponsoren</h3>
                 <div id="sponsorslider" data-images="4"></div>
             </div>
