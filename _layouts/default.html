@@ -24,7 +24,8 @@
 </head>
 <body>
 {% include header.html %}
-	
+	{{ page.url }}
+	{{ site.url }}
   {% if page.url == 'index.html' %}
     {{ content }}
   {% else %}    
