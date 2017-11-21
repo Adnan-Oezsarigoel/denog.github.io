@@ -6,11 +6,11 @@ title: DENOG9 - VORLÄUFIGE AGENDA
 <div class="container">
     <div class="mainpagepaddedbox">
         <h2>Tag 1 - 23.11.2017</h2>
-        <table class="table table-striped table-bordered">
+        <table class="table table-striped table-bordered table-hover">
             <thead>
                 <tr><th>Tag</th><th>Zeit</th><th>23.11.</th><th>Sprecher</th></tr>
             </thead>
-            <tbody class="table-hover">
+            <tbody>
                 <tr><td>1</td><td>11:30-13:00</td><td>Registration &amp; Welcome Lunch</td><td></td></tr>
                 <tr><td>1</td><td>13:00-13:15</td><td>Er&ouml;ffnung &amp; Begr&uuml;&szlig;ung</td><td>DENOG Orga</td></tr>
                 <tr><td>1</td><td>13:15-13:45</td><td><a href="#peeringdb">Peering DB Update</a></td><td>Arnold Nipper</td></tr>
@@ -27,11 +27,11 @@ title: DENOG9 - VORLÄUFIGE AGENDA
         </table>
 
         <h2>Tag 2 - 24.11.2017</h2>
-        <table class="table table-striped table-bordered">
+        <table class="table table-striped table-bordered table-hover">
             <thead>
                 <tr><th>Tag</th><th>Zeit</th><th>24.11.</th><th>Sprecher</th></tr>
             </thead>
-            <tbody class="table-hover">
+            <tbody>
                 <tr><td>2</td><td>09:00-09:30</td><td><a href="#lt">Lightning Talks</a></td><td></td></tr>
                 <tr><td>2</td><td>09:30-10:00</td><td><a href="#netlab">Automation for Network Lab Enviroments</a></td><td>Tobias Heister</td></tr>
                 <tr><td>2</td><td>10:00-10:30</td><td><a href="#juniper">Automating Juniper Devices with Ansible</a></td><td>Rudolph Bott</td></tr>
